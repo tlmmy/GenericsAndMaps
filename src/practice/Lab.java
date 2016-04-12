@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 /**
  *
@@ -49,6 +50,11 @@ public class Lab {
             Employee found = employees.get(key);
             System.out.println(found.toString());
         }
+        
+        System.out.println(e1.compareTo(e4));
+        
+        
+ 
 }
 }
 
